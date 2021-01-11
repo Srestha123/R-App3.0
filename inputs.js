@@ -56,7 +56,7 @@ class Inputs{
     this.sleep.option('8-12 hrs');
     this.sleep.option('more');
     this.sleep.option('less');
-    this.challenge=createButton("daily challenge");
+   // this.challenge=createButton("daily challenge");
   }
   display(){
     imageMode(CENTER);
@@ -71,7 +71,7 @@ class Inputs{
     this.school.position(600,350);
     this.rest.position(600,400);
     this.o2.position(790,400);
-    this.challenge.position(500,700);
+   // this.challenge.position(500,700);
           fill("blue")
     text("name:",200,150);
     text("wake up time:",160,200);
@@ -106,7 +106,7 @@ class Inputs{
     console.log(name);
     gameState=1;
     })*/
-    
+    submit2.hide();
   }
   fb(){
     var nm=this.name.value();
@@ -239,13 +239,14 @@ class Inputs{
     else{
       text("You should sleep more.",10,480);
     }
-    this.challenge.show();
-    submit2.hide();
+   /* this.challenge.show();
+    submit2.showz();*/
     submit.hide();
-   hideChallenge();
+    submit2.show();
+  /* hideChallenge();*/
   }
-  hideChallenge(){
+  /*hideChallenge(){
     this.challenge.hide();
-  }
+  }*/
   
 }
