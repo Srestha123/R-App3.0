@@ -241,7 +241,7 @@ class Inputs{
     }
     this.challenge.show();
    // submit2.show();
-    submit.hide();
+   // submit.hide();
    hideChallenge();
   }
   hideChallenge(){
