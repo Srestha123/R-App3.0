@@ -240,8 +240,8 @@ class Inputs{
       text("You should sleep more.",10,480);
     }
     this.challenge.show();
-   // submit2.show();
-   // submit.hide();
+    submit2.hide();
+    submit.hide();
    hideChallenge();
   }
   hideChallenge(){
